@@ -1,4 +1,4 @@
-from math import ceil, sqrt
+from math import ceil, sqrt       #Python
 
 def bsgs(g, h, p):
     N = ceil(sqrt(p - 1))  # phi(p) is p-1 if p is prime
